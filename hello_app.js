@@ -9,7 +9,7 @@ http.createServer(function (req, res) {
    //id = urlObj.query.id
    res.write("<h2>This is my hello application</h2>");
    res.write ("Success!  This app is deployed online");
-  res.write ("The id is: " + id)
+  //res.write ("The id is: " + id)
    res.end();
   console.log('hey')
 }).listen(port);
